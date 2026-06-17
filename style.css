@@ -1708,9 +1708,27 @@ footer{
     padding: 70px 8%;
 }
 
+/* FOOTER FIX */
 .footer-container{
-    grid-template-columns: 1fr;
-    text-align: center;
+   grid-template-columns: 1fr;
+   gap: 30px;
+   text-align: center;
+}
+
+.footer-brand,
+.footer-links,
+.footer-contact,
+.footer-social{
+    width: 100%;
+}
+
+.social-icons{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-contact p{
+    word-break: break-word;
 }
 
 /* TIMBER HERO */
@@ -2108,7 +2126,7 @@ body{
 
 .site-footer{
     background:#0f0f0f;
-    padding:70px 10%;
+    padding:70px 5%;
     border-top:1px solid rgba(255,255,255,0.1);
 }
 
